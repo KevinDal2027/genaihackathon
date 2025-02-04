@@ -22,3 +22,14 @@ Prompt engineering, Team communication and collaboration, React & web developmen
 What's next for ClearCal
 
 Weekly/Monthly Scheduling, analyzing user's monthly stress patterns by storing their data in a database, and integrations with other calendars like Outlook.
+
+
+To Use
+
+git clone https://github.com/KevinDal2027/genaihackathon
+
+cd mentalhealth-ai
+
+npm install
+
+npm run dev
