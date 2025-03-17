@@ -123,6 +123,8 @@ export const getActionPlan = async (task) => {
 
 }
 
+let timeNow = Date.now();
+
 export const getPlannerData = async (tasks, hobbies) => {
   console.log({ tasks: tasks }, { filteredHobbies: hobbies });
   try {
@@ -146,7 +148,7 @@ I am working on a stress-management day-planner app that uses generative AI to h
 Users can add multiple tasks. Then the app will ask for activities that help the user de-stress.
 All of these responses will be fed to a generative AI. The AI will come up with a day-plan that the user can follow.
 The response will contain the planner in a JSON format like this:
-THE OBJECT SHOULD BE CALLED dailyPlan
+THE OBJECT SHOULD BE CALLED dailyPlan. Also time at this moment is ${timeNow}
 {
     {
         "activityName": "",

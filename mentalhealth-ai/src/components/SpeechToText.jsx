@@ -1,6 +1,7 @@
 import React from "react";
 import { FaMicrophone, FaMicrophoneSlash } from "react-icons/fa";
 import logo from '../assets/favicon.svg';
+import './styles/SpeechToText.css';
 
 const SpeechToText = ({
   startListening,
