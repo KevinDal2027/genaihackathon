@@ -4,6 +4,8 @@
     flex-direction: row;
     min-width: 300px;
     font-size: 0.7rem;
+    margin: auto;
+    right: 50px;
   }
   .mic {
     font-size: 12px !important;
