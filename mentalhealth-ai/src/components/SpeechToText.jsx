@@ -14,7 +14,7 @@ const SpeechToText = ({
   return (
     <div className="card">
       <div className="card-body">
-        <h3 className="text-center ">
+        <h3 className="text-center">
           <b>Speech to Task AI</b>
         </h3>
          <img className="h-25 d-inline-block img-fluid" src={logo} alt="logo" />
@@ -22,9 +22,9 @@ const SpeechToText = ({
           Simply speak out the tasks that are stressing you out, and some activities that relax you, and see the
           magic happen!
         </p>
-        <div className="d-flex flex-column justify-content-center align-items-center">
+        <div className="mic d-flex flex-column justify-content-center align-items-center">
           <button
-            className={`btn ${
+            className={ `btn ${
               isListening ? "btn-danger" : "btn-dark"
             }  btn-block btn-lg`}
             onClick={isListening ? stopListening : startListening}
