@@ -67,25 +67,6 @@ In today's fast-paced world, effective time management is crucial for maintainin
 - Ensuring data privacy and security
 - Managing complex state transitions between components
 
-### Technical Dependencies
-```json
-{
-  "dependencies": {
-    "axios": "^1.7.9",
-    "framer-motion": "^11.18.1",
-    "googleapis": "^144.0.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-icons": "^5.4.0"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-react": "^4.3.4",
-    "vite": "^6.0.5",
-    "vite-plugin-svgr": "^4.3.0"
-  }
-}
-```
-
 ## Getting Started
 
 ### Prerequisites
@@ -116,16 +97,7 @@ During the development of ClearCal AI, we gained valuable experience in:
 - API integration and optimization
 - Data handling and processing
 
-## Contributing
-We welcome contributions from the community. Please feel free to submit issues and pull requests.
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Acknowledgements
 - Google Gemini API team
 - React community
 - Open-source contributors
-
-## Contact
-For questions or feedback, please contact us through the GitHub repository issues page.
